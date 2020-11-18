@@ -20,6 +20,4 @@ const alienSchema= new mongoose.Schema({
     
 })
 
-
-
 module.exports = mongoose.model('AlienMyAliean',alienSchema)
