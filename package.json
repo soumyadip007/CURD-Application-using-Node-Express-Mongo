@@ -1,0 +1,31 @@
+{
+  "name": "curd-application-using-node-express-mongo",
+  "version": "1.0.0",
+  "description": "In computer programming, create, read, update, and delete are the four basic functions of persistent storage. Alternate words are sometimes used when defining the four basic functions of CRUD, such as retrieve instead of read, modify instead of update, or destroy instead of delete.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadip007/CURD-Application-using-Node-Express-Mongo.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Soumyadip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyadip007/CURD-Application-using-Node-Express-Mongo/issues"
+  },
+  "homepage": "https://github.com/soumyadip007/CURD-Application-using-Node-Express-Mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
