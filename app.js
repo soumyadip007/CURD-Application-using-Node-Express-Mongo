@@ -13,7 +13,7 @@ con.on('open', function(){
 })
 
 //Forwarding Endpoints
-const allienRouter= require('./routes/aliens')
+const allienRouter= require('./routes/aliensController')
 app.use('/aliens', allienRouter)
 
 
