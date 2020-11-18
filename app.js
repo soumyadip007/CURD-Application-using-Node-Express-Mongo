@@ -12,6 +12,11 @@ con.on('open', function(){
     console.log('MongoDb Connected')
 })
 
+//Forwarding Endpoints
+const allienRouter= require('./routes/aliens')
+app.use('/aliens', allienRouter)
+
+
 app.listen(9000, () =>{
     console.log("Server Started")
 })
