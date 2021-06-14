@@ -62,8 +62,7 @@ router.get('/:id', async (req, res) => {
    
     try {
 
-        const alien = await AlienData.findById(req.params.id)
-        
+        const alien = await AlienData.findById(req.params.id)     
         res.json(alien)
 
     } catch (e) {
